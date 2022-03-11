@@ -5,8 +5,10 @@ export default function Home() {
   const [number, setNumber] = useState(0);
   return (
     <div>
-      <NavBar />
+      <NavBar/>
       <h1>'home'</h1>
+
     </div>
   )
 }
+
